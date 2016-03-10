@@ -8,6 +8,9 @@
 2. 实时本地文件同步至测试机(SFTP协议)，支持add file/directory、 update file、 rm file/directory
 3. 支持文件忽略，可以匹配正则
 
+## 使用
+
+下载nw.js v0.12.3版本，解压到本目录，然后双击nw.exe运行，由于界面很low，如使用可以联系作者(huabinglan@163.com),sorry.
 
 ##性能测试
 
