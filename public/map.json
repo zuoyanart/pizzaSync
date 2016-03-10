@@ -1,0 +1,378 @@
+{
+    "res": {
+        "css/font-awesome.min.css": {
+            "uri": "../public/css/font-awesome.min.css",
+            "type": "css"
+        },
+        "css/ie8.css": {
+            "uri": "../public/css/ie8.css",
+            "type": "css"
+        },
+        "css/index.css": {
+            "uri": "../public/css/index.css",
+            "type": "css"
+        },
+        "css/pizza.css": {
+            "uri": "../public/css/pizza.css",
+            "type": "css"
+        },
+        "lib/event.js": {
+            "uri": "../lib/event.js",
+            "type": "js",
+            "deps": [
+                "nw.gui"
+            ]
+        },
+        "lib/fileSync.js": {
+            "uri": "../lib/fileSync.js",
+            "type": "js"
+        },
+        "lib/linvodb.js": {
+            "uri": "../lib/linvodb.js",
+            "type": "js",
+            "deps": [
+                "linvodb3",
+                "medeadown"
+            ]
+        },
+        "lib/menu.js": {
+            "uri": "../lib/menu.js",
+            "type": "js",
+            "deps": [
+                "nw.gui"
+            ]
+        },
+        "lib/sshSync.js": {
+            "uri": "../lib/sshSync.js",
+            "type": "js",
+            "deps": [
+                "async",
+                "simple-ssh",
+                "scp2"
+            ]
+        },
+        "jquery": {
+            "uri": "../public/modules/jquery/jquery-1.11.3.min.js",
+            "type": "js"
+        },
+        "layer": {
+            "uri": "../public/modules/layer/layer.js",
+            "type": "js"
+        },
+        "modules/layer/skin/layer.css": {
+            "uri": "../public/modules/layer/skin/layer.css",
+            "type": "css"
+        },
+        "modules/layer/skin/layer.ext.css": {
+            "uri": "../public/modules/layer/skin/layer.ext.css",
+            "type": "css"
+        },
+        "pizzalayer": {
+            "uri": "../public/modules/pizzalayer/layer.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "layer"
+            ]
+        },
+        "pizzatools": {
+            "uri": "../public/modules/pizzatools/pizza.tools.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "pizzaui": {
+            "uri": "../public/modules/pizzaui/pizza.ui.js",
+            "type": "js",
+            "deps": [
+                "pizzalayer"
+            ]
+        },
+        "store": {
+            "uri": "../public/modules/store/pizza.ui.store.js",
+            "type": "js"
+        },
+        "site/addtask/addtask.css": {
+            "uri": "../public/site/addtask/addtask.css",
+            "type": "css"
+        },
+        "addtask/addtask": {
+            "uri": "../public/site/addtask/addtask.js",
+            "type": "js",
+            "deps": [
+                "site/addtask/addtask.css"
+            ]
+        },
+        "site/index.css": {
+            "uri": "../public/site/index.css",
+            "type": "css"
+        },
+        "index": {
+            "uri": "../public/site/index.js",
+            "type": "js",
+            "deps": [
+                "async",
+                "fs-extra",
+                "chokidar",
+                "site/index.css"
+            ]
+        },
+        "avatar/js/swfobject": {
+            "uri": "../public/widget/avatar/js/swfobject.js",
+            "type": "js"
+        },
+        "widget/comment/comment.css": {
+            "uri": "../public/widget/comment/comment.css",
+            "type": "css"
+        },
+        "comment/comment": {
+            "uri": "../public/widget/comment/comment.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "pizzatools",
+                "turnpage/turnpage",
+                "layer",
+                "pizzaui",
+                "widget/comment/comment.css"
+            ]
+        },
+        "widget/footer/footer.css": {
+            "uri": "../public/widget/footer/footer.css",
+            "type": "css"
+        },
+        "widget/header-small/header.css": {
+            "uri": "../public/widget/header-small/header.css",
+            "type": "css"
+        },
+        "kindeditor/kindeditor-min": {
+            "uri": "../public/widget/kindeditor/kindeditor-min.js",
+            "type": "js"
+        },
+        "widget/kindeditor/lang/zh_CN.js": {
+            "uri": "../public/widget/kindeditor/lang/zh_CN.js",
+            "type": "js"
+        },
+        "widget/kindeditor/lang/zh_TW.js": {
+            "uri": "../public/widget/kindeditor/lang/zh_TW.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/anchor/anchor.js": {
+            "uri": "../public/widget/kindeditor/plugins/anchor/anchor.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/baidumap/baidumap.js": {
+            "uri": "../public/widget/kindeditor/plugins/baidumap/baidumap.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/clearhtml/clearhtml.js": {
+            "uri": "../public/widget/kindeditor/plugins/clearhtml/clearhtml.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/code/code.js": {
+            "uri": "../public/widget/kindeditor/plugins/code/code.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/code/prettify.css": {
+            "uri": "../public/widget/kindeditor/plugins/code/prettify.css",
+            "type": "css"
+        },
+        "widget/kindeditor/plugins/code/prettify.js": {
+            "uri": "../public/widget/kindeditor/plugins/code/prettify.js",
+            "type": "js",
+            "deps": [
+                "widget/kindeditor/plugins/code/prettify.css"
+            ]
+        },
+        "widget/kindeditor/plugins/emoticons/emoticons.js": {
+            "uri": "../public/widget/kindeditor/plugins/emoticons/emoticons.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/face/face.js": {
+            "uri": "../public/widget/kindeditor/plugins/face/face.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/filemanager/filemanager.js": {
+            "uri": "../public/widget/kindeditor/plugins/filemanager/filemanager.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/flash/flash.js": {
+            "uri": "../public/widget/kindeditor/plugins/flash/flash.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/image/image.js": {
+            "uri": "../public/widget/kindeditor/plugins/image/image.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/insertfile/insertfile.js": {
+            "uri": "../public/widget/kindeditor/plugins/insertfile/insertfile.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/letter/letter.js": {
+            "uri": "../public/widget/kindeditor/plugins/letter/letter.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/lineheight/lineheight.js": {
+            "uri": "../public/widget/kindeditor/plugins/lineheight/lineheight.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/link/link.js": {
+            "uri": "../public/widget/kindeditor/plugins/link/link.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/map/map.js": {
+            "uri": "../public/widget/kindeditor/plugins/map/map.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/media/media.js": {
+            "uri": "../public/widget/kindeditor/plugins/media/media.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/multiimage/multiimage.js": {
+            "uri": "../public/widget/kindeditor/plugins/multiimage/multiimage.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/pagebreak/pagebreak.js": {
+            "uri": "../public/widget/kindeditor/plugins/pagebreak/pagebreak.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/plainpaste/plainpaste.js": {
+            "uri": "../public/widget/kindeditor/plugins/plainpaste/plainpaste.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/preview/preview.js": {
+            "uri": "../public/widget/kindeditor/plugins/preview/preview.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/quickformat/quickformat.js": {
+            "uri": "../public/widget/kindeditor/plugins/quickformat/quickformat.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/table/table.js": {
+            "uri": "../public/widget/kindeditor/plugins/table/table.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/template/template.js": {
+            "uri": "../public/widget/kindeditor/plugins/template/template.js",
+            "type": "js"
+        },
+        "widget/kindeditor/plugins/wordpaste/wordpaste.js": {
+            "uri": "../public/widget/kindeditor/plugins/wordpaste/wordpaste.js",
+            "type": "js"
+        },
+        "widget/kindeditor/themes/default/default.css": {
+            "uri": "../public/widget/kindeditor/themes/default/default.css",
+            "type": "css"
+        },
+        "widget/kindeditor/themes/qq/qq.css": {
+            "uri": "../public/widget/kindeditor/themes/qq/qq.css",
+            "type": "css"
+        },
+        "widget/kindeditor/themes/simple/simple.css": {
+            "uri": "../public/widget/kindeditor/themes/simple/simple.css",
+            "type": "css"
+        },
+        "laydate/laydate": {
+            "uri": "../public/widget/laydate/laydate.js",
+            "type": "js"
+        },
+        "widget/laydate/need/laydate.css": {
+            "uri": "../public/widget/laydate/need/laydate.css",
+            "type": "css"
+        },
+        "widget/laydate/skins/dahong/laydate.css": {
+            "uri": "../public/widget/laydate/skins/dahong/laydate.css",
+            "type": "css"
+        },
+        "widget/laydate/skins/default/laydate.css": {
+            "uri": "../public/widget/laydate/skins/default/laydate.css",
+            "type": "css"
+        },
+        "widget/laydate/skins/molv/laydate.css": {
+            "uri": "../public/widget/laydate/skins/molv/laydate.css",
+            "type": "css"
+        },
+        "widget/loginstate/loginstate.css": {
+            "uri": "../public/widget/loginstate/loginstate.css",
+            "type": "css"
+        },
+        "loginstate/loginstate": {
+            "uri": "../public/widget/loginstate/loginstate.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "pizzatools",
+                "pizzalayer",
+                "widget/loginstate/loginstate.css"
+            ]
+        },
+        "widget/nav/nav.css": {
+            "uri": "../public/widget/nav/nav.css",
+            "type": "css"
+        },
+        "nav/nav": {
+            "uri": "../public/widget/nav/nav.js",
+            "type": "js",
+            "deps": [
+                "widget/nav/nav.css"
+            ]
+        },
+        "site/pagejs": {
+            "uri": "../public/widget/site/pagejs.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "pizzaui",
+                "pizzatools",
+                "pizzalayer"
+            ]
+        },
+        "site/static": {
+            "uri": "../public/widget/site/static.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "widget/spacenav/spacenav.css": {
+            "uri": "../public/widget/spacenav/spacenav.css",
+            "type": "css"
+        },
+        "spacenav/spacenav": {
+            "uri": "../public/widget/spacenav/spacenav.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "pizzalayer",
+                "widget/spacenav/spacenav.css"
+            ]
+        },
+        "widget/tag/tag.css": {
+            "uri": "../public/widget/tag/tag.css",
+            "type": "css"
+        },
+        "tag/tag": {
+            "uri": "../public/widget/tag/tag.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "pizzalayer",
+                "pizzatools",
+                "widget/tag/tag.css"
+            ]
+        },
+        "turnpage/turnpage": {
+            "uri": "../public/widget/turnpage/turnpage.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "upload/js/swfobject": {
+            "uri": "../public/widget/upload/js/swfobject.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}

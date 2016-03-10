@@ -1,0 +1,24 @@
+{
+  "name": "nw-demo",
+  "main": "/views/index.html",
+  "window": {
+    "toolbar": true,
+    "width": 800,
+    "height": 500,
+    "frame": true
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "chokidar": "^1.0.5",
+    "fs-extra": "^0.24.0",
+    "ftps": "^0.3.0",
+    "linvodb3": "^3.10.3",
+    "medeadown": "^1.1.7",
+    "nodemiral": "^1.1.0",
+    "scp2": "^0.2.2",
+    "sequest": "^0.9.0",
+    "simple-ssh": "^0.8.6",
+    "ssh2": "^0.4.11",
+    "whoosh": "^0.3.6"
+  }
+}

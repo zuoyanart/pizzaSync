@@ -1,0 +1,66 @@
+.siteheader {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid #ccc;
+  background-color: #0a1855;
+  background-image: linear-gradient(45deg, #0c4c6f 0px, #53bff9 100%);
+  color: #fff;
+}
+.siteheader header {
+  width: 1200px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.siteheader a {
+  color: #fff;
+}
+.siteheader a:hover {
+  color: #fff;
+}
+.siteheader h1 a {
+  width: 150px;
+  height: 30px;
+  float: left;
+  font-size: 22px;
+  font-weight: 300;
+}
+.siteheader div {
+  float: right;
+}
+.siteheader div > a {
+  display: inline;
+  margin: 0 20px;
+}
+.main {
+  width: 1200px;
+  min-height: 500px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+.main > .leftside {
+  width: 1000px;
+  float: left;
+  margin-right: 50px;
+}
+.main > .leftside > div {
+  margin-top: 20px;
+}
+.main > .rightside {
+  position: relative;
+  float: left;
+  width: 150px;
+  min-height: 100px;
+}
+.main > .rightside > ul {
+  position: fixed;
+  top: 100px;
+  min-height: 100px;
+}
+.main > .rightside > ul > li {
+  list-style-type: decimal;
+  margin-top: 10px;
+}
+.main > .rightside > ul > li > a {
+  display: block;
+}
